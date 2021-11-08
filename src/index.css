@@ -1,0 +1,47 @@
+@import '~bootstrap';
+@import './theme/bootstrap.css';
+@import './theme/scroll.css';
+@import './theme/custom.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700;900&display=swap');
+
+.web3modal-modal-card {
+	background-color: #030843 !important;
+	padding: 30px 0px !important;
+	color: white;
+}
+
+.web3modal-modal-card #contentdom1 {
+	width: calc(100% - 180px);
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.web3modal-modal-card #contentdom2 {
+	width: calc(100% - 180px);
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.web3modal-provider-wrapper {
+	padding: 5px 60px !important;
+	border: 0px !important;
+}
+
+.web3modal-provider-container {
+	flex-direction: row !important;
+	background-color: #CF3279 !important;
+	padding: 10px 20px !important;
+}
+
+.web3modal-provider-name {
+	margin-top: 0px !important;
+	color: white !important;
+	text-align: left !important;
+	margin-left: 10px;
+}
+
+.web3modal-provider-description {
+	display: none !important;
+}
+

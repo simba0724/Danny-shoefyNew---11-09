@@ -1,0 +1,223 @@
+.staking-container {
+	display: block;
+	/* padding: 5% 4% 0% 4%; */
+}
+
+
+.i_header{
+    width: 100%;
+    height: 80px;
+    background-color: #252a48;
+    border-bottom:2px solid #414665;
+    display: flex;
+}
+
+.i_header .wallet-connect{
+	cursor: pointer;
+	padding: 12px 14.5px;
+}
+
+.ih_left{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+.ih_text{
+
+    color:#68768c;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lato',sans-serif;
+
+}
+
+.ih_right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ih_img{
+    margin-left:10px;
+
+}
+
+.ih_alert{
+    margin-left:10px;
+}
+
+.staking-container #staking-form label {
+	margin-bottom: 20px;
+}
+
+.staking-container .staking-footer {
+	padding: 50px;
+}
+
+.staking-container .staking-body h1 {
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.staking-container .staking-body h2 {
+	font-size: 1.2rem;
+	margin-bottom: 8px;
+}
+
+.staking-title {
+	margin-bottom: 32px;
+}
+
+.staking-title span {
+	font-size: 2.6rem;
+	font-weight: bold;
+}
+
+.staking-info {
+	margin-bottom: 20px;
+}
+
+.staking-container form label {
+	margin-bottom: 20px;
+}
+
+.staking-container form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.staking-container form .button-row {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.staking-container ul.nav-tabs {
+	background-color: #141414;
+	border-radius: 10px 10px 0 0;
+}
+
+.staking-container a.nav-link {
+	color: var(--white);
+}
+
+.staking-container form .button-row>button {
+	margin: 0 4px;
+}
+
+.staking-container form .staking-percentages {
+	margin-bottom: 20px;
+	margin-right: 60px;
+}
+
+.staking-container form .staking-slider-wrapper {
+	line-height: 35px;
+}
+
+.staking-container form .staking-slider-wrapper input {
+	height: 35px;
+}
+
+.staking-container form .staking-slider-wrapper label {
+	width: 60px;
+	text-align: right;
+}
+
+/*.staking-container .staking-body>div {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}*/
+
+.staking-container input::-webkit-outer-spin-button,
+.staking-container input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.staking-container input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.nft-container{
+	padding: 20px;
+}
+.nft-item {
+	margin-bottom: 30px;
+}
+
+.nft-item .nft-img{
+	height: 250px;
+}
+
+.nft-item .nft-img img{
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 900px) {
+	.staking-container {
+		padding: 30% 10% 0 10%;
+	}
+
+	.staking-title {
+		margin-bottom: 20px;
+	}
+
+	.staking-header .btn-wallet {
+		margin-top: 20px;
+	}
+
+	.staking-title span {
+		font-size: 2.4rem;
+	}
+
+	.staking-container .staking-header a {
+		float: none !important;
+		margin-bottom: 20px;
+	}
+
+	.staking-container form .staking-percentages {
+		margin: 0px 0px 10px 0px;
+	}
+
+	.staking-container form .button-row {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.staking-container form .button-row button {
+		width: 50vw;
+		margin-bottom: 10px;
+	}
+}
+
+.divide_part{
+	display: flex;
+	flex-direction: column;
+}
+
+/* .part_h{
+	display: flex;
+	flex:1;
+}
+
+.part_c{
+	display: flex;
+	flex:12;
+
+}
+
+.part_f{
+	display: flex;
+	flex:1;
+} */

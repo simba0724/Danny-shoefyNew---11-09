@@ -1,0 +1,202 @@
+.comming {
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: bottom;
+}
+
+.comingtitle {
+	font-size: 76px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 64px;
+	letter-spacing: -0.02em;
+	text-align: center;
+
+    padding-top: 180px;
+    color: white;
+    text-shadow: 3px 3px purple;
+    margin-bottom: 44px;
+}
+
+.countdown {
+	display: flex;
+	justify-content: center;
+}
+
+.countdown div {
+	background-color: #ffffff4d;
+	width: 132px;
+	height: 132px;
+	border-radius: 16px;
+	border: 2px solid #D0D0D0;
+	margin: 0 7px;
+	text-align: center;
+}
+
+.countdown h3 {
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 58px;
+
+	text-align: center;
+	letter-spacing: -0.03em;
+	margin-top: 10px;
+
+	color: #FFFFFF;
+}
+
+.countdown span {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+
+	text-align: center;
+	letter-spacing: -0.01em;
+
+	color: #FFFFFF;
+}
+
+.image {
+    transform-style: preserve-3d;
+	border-radius: 50%;
+	/*border: 3px solid white;*/
+	padding: 7px;
+	background: linear-gradient(135.88deg, rgba(237, 0, 255, 0.5) 15.32%, rgba(0, 251, 255, 0.5) 85.61%);
+}
+
+.image>div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150%;
+    height: 150%;
+    margin-top: -25%;
+    margin-left: -25%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    transform-style: preserve-3d;
+}
+
+.imageleft>div.star1 {
+    transform-style: preserve-3d;
+    animation: star1 3s linear infinite;
+}
+
+.imageleft>div.star2 {
+    transform-style: preserve-3d;
+    animation: star2 3s linear infinite;
+}
+
+@keyframes star1 {
+    from {
+        transform: rotateY( 45deg) rotateX( 45deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateY( 45deg) rotateX( 45deg) rotateZ(360deg);
+    }
+}
+
+@keyframes star2 {
+    from {
+        transform: rotateY( 45deg) rotateX( 80deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateY( 45deg) rotateX( 80deg) rotateZ(360deg);
+    }
+}
+
+.imageleft>div.star1>img {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    animation: star1Img 3s linear infinite;
+}
+
+.imageleft>div.star2>img {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    animation: star2Img 3s linear infinite;
+}
+
+@keyframes star1Img {
+    from {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -45deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -45deg) rotateZ(-360deg);
+    }
+}
+
+@keyframes star2Img {
+    from {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -80deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -80deg) rotateZ(-360deg);
+    }
+}
+
+
+
+.imageright>div.star1 {
+    transform-style: preserve-3d;
+    animation: starright1 3s linear infinite;
+}
+
+.imageright>div.star2 {
+    transform-style: preserve-3d;
+    animation: starright2 3s linear infinite;
+}
+
+@keyframes starright1 {
+    from {
+        transform: rotateY( 135deg) rotateX( 135deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateY( 135deg) rotateX( 135deg) rotateZ(360deg);
+    }
+}
+
+@keyframes starright2 {
+    from {
+        transform: rotateY( 45deg) rotateX( 80deg) rotateZ(0deg);
+    }
+    to {
+        transform: rotateY( 45deg) rotateX( 80deg) rotateZ(360deg);
+    }
+}
+
+.imageright>div.star1>img {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    animation: star1rightImg 3s linear infinite;
+}
+
+.imageright>div.star2>img {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    animation: star2rightImg 3s linear infinite;
+}
+
+@keyframes star1rightImg {
+    from {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -45deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -45deg) rotateZ(-360deg);
+    }
+}
+
+@keyframes star2rightImg {
+    from {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -80deg) rotateZ(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotateY( -45deg) rotateX( -80deg) rotateZ(-360deg);
+    }
+}

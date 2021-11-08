@@ -1,0 +1,53 @@
+/* SHOEFY FINANCE CUSTOM STYLES
+   In this file, non-theme related styles are written
+*/
+
+body {
+	font-family: 'Mulish', var(--font-family-sans-serif);
+}
+
+.stretch-screen {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.gradient-card {
+	border-radius: 12px;
+	min-width: 40px;
+	min-height: 40px;
+	padding: 20px;
+}
+
+.gradient-card.light {
+	background: linear-gradient(var(--light), rgba(255, 255, 255, 0.5) 100%);
+	color: var(--dark);
+	border: 1px solid var(--dark);
+}
+
+.gradient-card.dark {
+	/* background: var(--space-alt); */
+	background-color: #313862;
+	color: var(--light);
+	border: 1px solid var(--light);
+}
+
+.gradient-card.primary {
+	/* background: linear-gradient(rgb(48, 154, 196), rgba(85, 175, 211, 0.5) 100%); */
+	background-color: #313862;
+	color: white;
+	/* color: var(--dark); */
+	border: 1px solid var(--dark);
+}
+
+.coming-soon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	line-height: 50px;
+	margin-top: -25px;
+	margin-left: -100px;
+	width: 200px;
+	text-align: center;
+}

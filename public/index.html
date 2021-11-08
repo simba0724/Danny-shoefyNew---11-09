@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Those need to be first -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+		<!-- General -->
+		<meta name="description" content="We are ShoeFy Staking a company whose goal is to provide our customers with the most efficient ability to earn interest on your investment while donating to world healing charities." />
+
+		<!-- Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="images/logo.jp" />
+
+		<!-- Twitter -->
+		<meta name="twitter:title" content="ShoeFy Staking" />
+		<meta name="twitter:description" content="We are ShoeFy Staking a company whose goal is to provide our customers with the most efficient ability to earn interest on your investment while donating to world healing charities." />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="images/logo.jp" />
+
+		<!-- Continue with normal tags -->
+		<title>ShoeFy Staking</title>
+		<link rel="icon" type="image/png" href="images/logo.jpg" />
+	</head>
+	<body>
+		<!-- Everything gets rendered into this one -->
+		<div id="root"></div>
+		<!-- Button trigger modal   style="display: none"-->
+		<button type="button" class="btn btn-primary" id="modalswitch" style="display: none;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+		  Launch static backdrop modal
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="staticBackdrop" style="display: none;" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog" style="margin-top: 15rem;">
+		    <div class="modal-content" style="background-color: #030843; max-width: 500px; min-width: fit-content; max-height: 100%; overflow: auto; border: 0;">
+		      <div class="modal-header" style="border: 0; background-color: #030843;">
+		        <button type="button" class="btn-close" id="btn-close" style="color: white" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body" style="border: 0; background-color: #030843; text-align: center">
+		      	<div class="spinner-border" style="width: 5rem; height: 5rem; border: 0.25em solid #C22F72; border-right-color: transparent;" role="status">
+				  	<span class="sr-only">Loading...</span>
+				</div>
+		        <h3 style="font-size: 32px; font-weight: 700; color: #C22F72">Wrong Network</h3>
+		        <p style="color: white;">Please change network on your wallet</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<button type="button" class="btn btn-primary" id="modalswitch2" style="display: none;" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+		  Launch static backdrop modal
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="staticBackdrop2" style="display: none;" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog" style="margin-top: 15rem;">
+		    <div class="modal-content" style="background-color: #030843; max-width: 500px; min-width: fit-content; max-height: 100%; overflow: auto; border: 0;">
+		      <div class="modal-header" style="border: 0; background-color: #030843;">
+		        <button type="button" class="btn-close" id="btn-close" style="color: white" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body" style="border: 0; background-color: #030843; text-align: center">
+		        <p style="color: white; font-size: 32px; font-weight: 600; margin-bottom: 45px;">Successfully Staked</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<button type="button" class="btn btn-primary" id="modalswitch3" style="display: none;" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+		  Launch static backdrop modal
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="staticBackdrop3" style="display: none;" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog" style="margin-top: 15rem;">
+		    <div class="modal-content" style="background-color: #030843; max-width: 500px; min-width: fit-content; max-height: 100%; overflow: auto; border: 0;">
+		      <div class="modal-header" style="border: 0; background-color: #030843;">
+		        <button type="button" class="btn-close" id="btn-close" style="color: white" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body" style="border: 0; background-color: #030843; text-align: center">
+		        <p style="color: white; font-size: 32px; font-weight: 600; margin-bottom: 45px;">Successfully Unstaked</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	</body>
+	<script type="text/javascript">
+		var modal = document.getElementById('staticBackdrop');
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    document.getElementById("btn-close").click()
+		  }
+		}
+	</script>
+</html>

@@ -1,0 +1,44 @@
+/* ShoeFy FINANCE BOOTSTRAP THEME
+   This file can be used to edit the theme on bootstrap.build (use import button, make changes, export again as _variables.scss and bootstrap.css)
+*/
+
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;
+$green: #31c461;
+$primary: $green;
+$secondary: #252836;
+$dark: #282b3a;
+$light: #9daabf;
+$body-bg: $dark;
+$body-color: $light;
+$link-hover-color: lighten($link-color, 15%);
+$table-accent-bg: rgba($white, .05);
+$input-bg: lighten($dark, 5%);
+$input-color: $light;
+$input-disabled-bg: $gray-800;
+$input-group-addon-bg: $dark;
+$nav-tabs-border-color: $light;
+$nav-tabs-link-active-color: $light;
+$nav-tabs-link-active-bg: lighten($dark, 5%);
+$nav-tabs-link-active-border-color: $light $light $nav-tabs-link-active-bg;
+$breadcrumb-bg: $dark;
+$breadcrumb-active-color: $light;
+$breadcrumb-divider: quote("|");
+$pagination-bg: $dark;
+$pagination-border-color: darken($light, 20%);
+$pagination-hover-bg: lighten($dark, 10%);
+$pagination-hover-border-color: $pagination-border-color;
+$pagination-disabled-bg: $dark;
+$pagination-disabled-border-color: $pagination-border-color;
+$alert-bg-level: 5;
+$alert-color-level: -5;
+$alert-border-level: -5;
+$progress-bg: $gray-800;
+$jumbotron-bg: null;
+$list-group-bg: lighten($dark, 5%);
+$list-group-border-color: $light;
+$list-group-hover-bg: lighten($dark, 20%);
+$card-bg: $dark;
+$modal-content-bg: lighten($dark, 5%);
+$modal-content-border-color: darken($light, 30%);
+$table-bg-level: 5;

@@ -1,0 +1,20 @@
+.staking-container {
+	display: block;
+	padding: 5% 4% 0% 4%;
+}
+
+.main-content {
+	color: white;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.main-content h1 {
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 64px;
+	letter-spacing: -0.02em;
+	margin-bottom: 100px;
+}

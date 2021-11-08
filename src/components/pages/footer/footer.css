@@ -1,0 +1,49 @@
+
+.i_footer{
+    width: 100%;
+    display: flex;
+}
+
+.if_left{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.if_right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.ifl1{
+    color: #acb4da;
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.ifl2{
+    color: #4159d8;
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.ifr_icon{
+    margin-left: 20px;
+}
+
+
+.ifr_icon1{
+    margin-left: 30px;
+}
+
+.ifr_text{
+    margin-left: 10px;
+}

@@ -1,0 +1,17 @@
+.dockerignore
+.env
+.git*
+.editorconfig
+.project
+.settings
+.toolstarget
+
+npm-debug.log
+Dockerfile
+LICENSE
+README.md
+
+.*/
+dist/
+node_modules/
+!.htaccess

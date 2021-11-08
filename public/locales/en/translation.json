@@ -1,0 +1,46 @@
+{
+    "nav": {
+        "home": "Home",
+        "shoefyStaking": "ShoeFy Staking",
+        "nftStaking": "NFT Staking",
+        "swap": "Swap",
+        "farm": "Farm",
+        "staking": "Staking",
+        "lottery": "Lottery",
+        "faq": "FAQ",
+        "coinmarketcap": "CoinMarketCap",
+        "coingecko": "CoinGecko",
+        "buyonpancakeswap": "Buy on PancakeSwap",
+        "buyonwhitebit": "Buy on WhiteBIT",
+        "viewonbscscan": "View on BSCscan",
+        "copyright": "ShoeFy Staking 2021+"
+    },
+    "staking": {
+        "connect_wallet": "Connect Wallet",
+        "disconnect_wallet": "Disconnect Wallet",
+        "paragraph1": "Using ShoeFy staking, you can easily earn more ShoeFy tokens over time while the blockchain is running. Planning to hold ShoeFy tokens to help our planet? Earn more while doing so and collect your passive income.",
+        "paragraph2": "In order to stake ShoeFy tokens, you need to connect your browser wallet (such as <1>Metamask</1>) and <1>Switch to the Binance Smart Chain</1>",
+        "your_info": {
+            "title": "Your Information",
+            "wallet_address": "Wallet address",
+            "connect_wallet": "Please connect your wallet",
+            "tradeable": "Tradeable balance",
+            "staked": "Staked balance",
+            "pending_rewards": "Pending rewards",
+            "staking_period": "Staking Period",
+            "apr": "APR"
+        },
+        "stake": {
+            "title": "Stake",
+            "percentage": "Percentage of tokens to stake:",
+            "amount": "Amount of tokens to stake:",
+            "claim_rewards": "Claim rewards"
+        },
+        "unstake": {
+            "title": "Unstake",
+            "percentage": "Percentage of tokens to unstake:",
+            "amount": "Amount of tokens to unstake:",
+            "claim_rewards": "Claim rewards"
+        }
+    }
+}
